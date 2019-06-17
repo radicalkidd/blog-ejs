@@ -2,13 +2,6 @@
 
 <div>
   <h1>Compose</h1>
-  <!-- <div>
-    <form action="/compose" method="post">
-      <input type="text" name="newPost" placeholder="New Post" autocomplete="off">
-      <textarea name="inputPost" rows="5" cols="30"></textarea>
-      <button type="submit" name="blogPost" value="">Publish</button>
-    </form>
-  </div> -->
   <form action="/compose" method="post">
       <div class="form-group">
         <label>Title</label>
@@ -16,7 +9,7 @@
       </div>
       <div class="form-group">
         <label>Post</label>
-        <textarea name="inputPost" class="form-control" rows="5" cols="30"></textarea>
+        <textarea name="postBody" class="form-control" rows="5" cols="30"></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Publish</button>
     </form>
